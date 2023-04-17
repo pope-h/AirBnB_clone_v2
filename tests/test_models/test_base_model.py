@@ -27,6 +27,9 @@ class test_basemodel(unittest.TestCase):
         except:
             pass
 
+    def test_blah(self):
+        self.assertEqual(1, 1)
+
     def test_default(self):
         """ """
         i = self.value()
