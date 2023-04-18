@@ -112,11 +112,11 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         """ Overrides the emptyline method of CMD """
         pass
-    
+
     def create_args_dict(self, args):
         dic = {}
         if '=' in args:
-            args_list = args.split(' ');
+            args_list = args.split(' ')
             i = 0
             for args in args_list:
                 if i == 0:
